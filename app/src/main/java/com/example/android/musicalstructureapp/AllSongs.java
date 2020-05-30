@@ -23,7 +23,7 @@ public class AllSongs extends AppCompatActivity {
         songs.add(new Song(R.string.song6, R.drawable.playpicture));
 
         SongAdapter songsAdapter = new SongAdapter(this, songs);
-        ListView songsView = findViewById(R.id.songlist);
+        ListView songsView = findViewById(R.id.songList);
         songsView.setAdapter(songsAdapter);
     }
 }
